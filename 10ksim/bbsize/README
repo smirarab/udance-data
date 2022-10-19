@@ -1,0 +1,15 @@
+
+### bbsize
+
+Data for the experiment where the uDance backbone size parameter changed to 250, 500, and 2000.
+
+Location: 
+https://drive.google.com/drive/folders/1IwrwuP6F2Zlgql8LkI09lncTcd4xbG2G
+
+extract the files in the following order:
+udance.tar.gz
+hgt_250.tar.gz
+hgt_500.tar.gz
+hgt_2000.tar.gz
+
+

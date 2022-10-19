@@ -1,0 +1,10 @@
+
+### bbsize
+
+Data for the experiment where the uDance backbone size parameter changed to 250, 500, and 2000.
+
+
+### clustersize
+
+
+Data for the experiment where the uDance partition size parameter changed to 50, 100, 250, and 1000.
