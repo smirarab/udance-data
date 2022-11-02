@@ -1,0 +1,48 @@
+
+# 01, 02, .. 10
+REPS=["{:02d}".format(number) for number in range(1,11)]
+# 001, 002, ... 500
+GENES=["{:03d}".format(number) for number in range(1,501)]
+# 001, 002, ... 100
+GENES_100=["{:03d}".format(number) for number in range(1,101)]
+mc="model-0.5_0.5-5.5"
+
+rule all:
+    input: expand("estaln/trees/{numgenes}/{rep}/astral-mp.nwk", rep=REPS, numgenes=[100,200,300,400,500])
+
+rule astral_mp_ft:
+    input: "estaln/trees/{numgenes}/{rep}/estimatedgenetrees"
+    output: "estaln/trees/{numgenes}/{rep}/astral-mp.nwk"
+    resources: cpus=32, mem_mb=240000
+    shell:
+        '''
+            #cat {input} | head -n {wildcards.numgenes} > estaln/trees/{wildcards.numgenes}/{wildcards.rep}/estimatedgenetrees || true
+            #
+            pwdd=`echo ~`
+            /usr/bin/time -o estaln/trees/{wildcards.numgenes}/{wildcards.rep}/time.txt -f "%e\t%M" java -Xmx{resources.mem_mb}M -D"java.library.path=$pwdd/ASTRAL_5154/lib/" -jar $pwdd/ASTRAL_5154/astral.5.15.4.jar -i {input} -C -T {resources.cpus} -o {output} > estaln/trees/{wildcards.numgenes}/{wildcards.rep}/astral-mp.out 2>&1
+        '''
+
+#rule fasttree:
+#    input: "estaln/alignments/{rep}/{gene}/output_alignment_masked.fasta"
+#    output: "estaln/alignments/{rep}/{gene}/fasttree.nwk"
+#    shell: 
+#        '''
+#            export OMP_NUM_THREADS=1
+#            FastTreeMP -nt -nopr -gtr -gamma < {input} > {output} 2> estaln/alignments/{wildcards.rep}/{wildcards.gene}.err
+#        '''
+#
+#
+#rule uppalign:
+#    input: "sim/%s/{rep}/{gene}.fas.gap" % mc
+#    output: "estaln/alignments/{rep}/{gene}/output_alignment_masked.fasta"
+#    resources: cpus=6
+#    shell:
+#        ''' 
+#            outdir="estaln/alignments/{wildcards.rep}/{wildcards.gene}"
+#            pwdd=`pwd`
+#            inpfullpath=`echo $pwdd/{input}`
+#            pushd $outdir
+#            ln -sf $inpfullpath ./aln.fa
+#            run_upp.py -s aln.fa -B 1000 -A 100 -M 0.75 -m dna -seed 1234 -x {resources.cpus} > upp.out 2> upp.err
+#            popd
+#        '''

@@ -1,0 +1,16 @@
+
+## mc-5-100
+
+The dataset referred as mc3-100, mc3-200, mc3-300, mc3-400, and mc3-500 in the manuscript.
+
+Location for the dataset: 
+https://drive.google.com/drive/folders/1IwrwuP6F2Zlgql8LkI09lncTcd4xbG2G
+
+extract all the archives in the ``mc-5-100'' directory:
+
+### Scripts
+
+Snakefile: snakemake scripts for running FastTree2 and ASTRAL-MP methods
+select_genes.sh: The procedure that assignes 500 genes into the 5 groups based on discordance.
+collect*.sh: collects accuracy and runtime results from runs
+

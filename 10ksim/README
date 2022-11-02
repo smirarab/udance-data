@@ -17,6 +17,11 @@ We randomly delete a single consequent chunk of characters in each sequence thro
 The derived dataset referred as mc-1-full in the paper. We create another model condition named {mc-1-full} from the previous one by (1) making two adjustments: (1) changing the distribution from which $\lambda$ is drawn to Uniform(6, 7) and (2) decreasing the HGT rate so that gene tree discordance is 0.35.
 
 
+## mc-5-100
+
+The dataset referred as mc3-100, mc3-200, mc3-300, mc3-400, and mc3-500 in the manuscript.
+
+
 ### bbsize
 
 Data for the experiment where the uDance backbone size parameter changed to 250, 500, and 2000.
