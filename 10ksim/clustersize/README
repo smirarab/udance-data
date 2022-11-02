@@ -1,0 +1,13 @@
+
+### clustersize
+
+Data for the experiment where the uDance partition size parameter changed to 50, 100, 250 and 1000.
+
+Location: 
+https://drive.google.com/drive/folders/1IwrwuP6F2Zlgql8LkI09lncTcd4xbG2G
+
+extract the file in the folder `clustersize`:
+
+clusterize.zip
+
+

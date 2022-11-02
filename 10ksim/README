@@ -1,3 +1,21 @@
+### mc-2
+
+The main dataset referred as mc-2-full in the paper. 
+
+We simulate a 10,000 taxa species tree under Birth-death process with fixed speciation and extinction rate of $5 \times 10^{-7}$ and $4.16 \times 10^{-7}$ respectively. The number of generations in the tree is fixed to $10^{9}$. 
+Each replicate has 500 gene trees and ILS and HGT constitutes the two sources of gene tree discordance. Gene trees have 0.03 mean nRF distance to the species tree due to ILS prior to introduction of HGT events. We set the rate of HGT events so that the average discordance across all replicates is 0.38. 
+We note that the amount of discordance due to HGT is much higher than ILS because we wanted to remain similar to our microbial reference dataset, WoL. 
+The probability of a horizontal gene transfer event between two taxa is inversely proportional to their distance in the species tree. 
+For each gene, we use INDELIBLE~\citep{Fletcher2009} to simulate multiple sequence alignments under GTR+G model. In each replicate, we draw two gene sequence length hyperparameters $\lambda$ and $\nu$ from Uniform(5.5, 6.5) and Uniform(0.1, 0.2) respectively. The length of each gene sequence within a replicate is drawn from Lognormal($\lambda$, $\nu$). This parametric process results in lengths ranging between $169$ and $869$, and averages $406$ base pairs.
+
+
+We randomly delete a single consequent chunk of characters in each sequence through the following process in which the deleted range is more probable to be on tips of the sequence than the center. The ratio of the deletion length to the total length is drawn from Beta($\rho$, 1-$\rho$) where $\rho$ is a hyperparameter drawn from Uniform(0.2,0.6). The location of the center of the deleted range is drawn from Beta(0.4,0.4) distribution where the 0 and 1 represents the leftmost and rightmost eligible center location respectively. Finally, we realign modified sequences using UPP~\cite{upp}. 
+
+
+### mc-1
+
+The derived dataset referred as mc-1-full in the paper. We create another model condition named {mc-1-full} from the previous one by (1) making two adjustments: (1) changing the distribution from which $\lambda$ is drawn to Uniform(6, 7) and (2) decreasing the HGT rate so that gene tree discordance is 0.35.
+
 
 ### bbsize
 
@@ -6,5 +24,11 @@ Data for the experiment where the uDance backbone size parameter changed to 250,
 
 ### clustersize
 
-
 Data for the experiment where the uDance partition size parameter changed to 50, 100, 250, and 1000.
+
+
+### vsize
+
+Data for the experiment where the uDance serially grows the tree with 250 leaves to 64000 leaves.
+
+

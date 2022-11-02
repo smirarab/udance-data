@@ -1,0 +1,20 @@
+
+## vsize
+
+Data for the experiment where the uDance serially grows the tree with 250 leaves to 64000 leaves..
+
+Location for the dataset: 
+https://drive.google.com/drive/folders/1IwrwuP6F2Zlgql8LkI09lncTcd4xbG2G
+
+extract all the archives in the ``vsize'' directory:
+
+### Scripts
+
+ft2_astral.smk: snakemake scripts for running FastTree2 and ASTRAL-MP methods
+sampler.sh: sampling procedure 
+collect*.sh: collects accuracy and runtime results from runs
+
+
+
+
+
