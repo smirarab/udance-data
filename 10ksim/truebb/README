@@ -1,0 +1,14 @@
+
+## truebb
+
+Data for the experiment where the uDance uses the true tree (known due to simulation) as the backbone.
+
+Location for the dataset: 
+https://drive.google.com/drive/folders/1IwrwuP6F2Zlgql8LkI09lncTcd4xbG2G
+
+extract all the archives in the ``truebb'' directory:
+
+### Scripts
+
+cpusec_report.sh: the script that measures the running time for uDance after it's completed.
+
