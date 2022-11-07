@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/mebalaba/tools/reconcile_treeorder.py", line 77, in read_tree_newick
+    while bracket is not None or ts[i] in BRACKET or (ts[i] != ':' and ts[i] != ',' and ts[i] != ';' and ts[i] != ')'):
+IndexError: string index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mebalaba/tools/reconcile_treeorder.py", line 91, in <module>
+    t1 = read_tree_newick(sys.argv[1])
+  File "/home/mebalaba/tools/reconcile_treeorder.py", line 87, in read_tree_newick
+    raise RuntimeError("Failed to parse string as Newick: %s"%ts)
+RuntimeError: Failed to parse string as Newick: ptold.nwk
