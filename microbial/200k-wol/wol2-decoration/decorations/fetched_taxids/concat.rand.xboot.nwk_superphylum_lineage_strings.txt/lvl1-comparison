@@ -1,0 +1,85 @@
+name	grpsize	true positive	false positive	false negative	precision	recall	fmeasure
+p__	49	27	7006	22	0.003839044504478885	0.5510204081632653	0.0076249646992375035
+p__Acidobacteria	56	55	1	1	0.9821428571428571	0.9821428571428571	0.9821428571428571
+p__Aquificae	17	16	0	1	1.0	0.9411764705882353	0.9696969696969697
+p__Asgard_group	8	7	0	1	1.0	0.875	0.9333333333333333
+p__BD1-7_clade	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Caldiserica/Cryosericota_group	2	2	0	0	1.0	1.0	1.0
+p__Calditrichaeota	2	2	0	0	1.0	1.0	1.0
+p__Candidatus_Abawacabacteria	1	0	0	1		0.0	
+p__Candidatus_Aerophobetes	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Aminicenantes	8	8	0	0	1.0	1.0	1.0
+p__Candidatus_Atribacteria	4	3	0	1	1.0	0.75	0.8571428571428571
+p__Candidatus_Baumannia	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Berkelbacteria	8	8	0	0	1.0	1.0	1.0
+p__Candidatus_Bipolaricaulota	7	7	0	0	1.0	1.0	1.0
+p__Candidatus_Calescamantes	7	7	1	0	0.875	1.0	0.9333333333333333
+p__Candidatus_Coatesbacteria	1	0	0	1		0.0	
+p__Candidatus_Dadabacteria	2	2	0	0	1.0	1.0	1.0
+p__Candidatus_Delongbacteria	1	1	10	0	0.09090909090909091	1.0	0.16666666666666669
+p__Candidatus_Dependentiae	22	21	0	1	1.0	0.9545454545454546	0.9767441860465117
+p__Candidatus_Desantisbacteria	1	0	0	1		0.0	
+p__Candidatus_Dojkabacteria	13	13	0	0	1.0	1.0	1.0
+p__Candidatus_Doudnabacteria	19	19	0	0	1.0	1.0	1.0
+p__Candidatus_Edwardsbacteria	1	0	0	1		0.0	
+p__Candidatus_Eisenbacteria	1	0	0	1		0.0	
+p__Candidatus_Fervidibacteria	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Firestonebacteria	1	1	27	0	0.03571428571428571	1.0	0.0689655172413793
+p__Candidatus_Fischerbacteria	1	0	0	1		0.0	
+p__Candidatus_Fraserbacteria	1	0	0	1		0.0	
+p__Candidatus_Glassbacteria	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Hydrothermae	6	5	0	1	1.0	0.8333333333333334	0.9090909090909091
+p__Candidatus_Hydrothermarchaeota	1	0	0	1		0.0	
+p__Candidatus_Lindowbacteria	1	0	0	1		0.0	
+p__Candidatus_Peregrinibacteria	55	0	0	55		0.0	
+p__Candidatus_Peribacteraceae	5	5	0	0	1.0	1.0	1.0
+p__Candidatus_Poribacteria	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Pyropristinus	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Raymondbacteria	1	1	3	0	0.25	1.0	0.4
+p__Candidatus_Riflebacteria	1	0	0	1		0.0	
+p__Candidatus_Saccharibacteria	18	18	0	0	1.0	1.0	1.0
+p__Candidatus_Schekmanbacteria	8	7	0	1	1.0	0.875	0.9333333333333333
+p__Candidatus_Sumerlaeota	2	0	0	2		0.0	
+p__Candidatus_Wallbacteria	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Candidatus_Wirthbacteria	1	0	0	1		0.0	
+p__Chrysiogenetes	2	2	0	0	1.0	1.0	1.0
+p__Coprothermobacterota	3	3	0	0	1.0	1.0	1.0
+p__DPANN_group	9	5	0	4	1.0	0.5555555555555556	0.7142857142857143
+p__Deferribacteres	8	7	0	1	1.0	0.875	0.9333333333333333
+p__Diaforarchaea_group	43	28	12	15	0.7	0.6511627906976745	0.674698795180723
+p__Dictyoglomi	2	2	0	0	1.0	1.0	1.0
+p__Elusimicrobia	29	29	0	0	1.0	1.0	1.0
+p__Euryarchaeota	75	40	0	35	1.0	0.5333333333333333	0.6956521739130436
+p__FCB_group	982	904	6	78	0.9934065934065934	0.9205702647657841	0.9556025369978859
+p__Fusobacteria	36	36	0	0	1.0	1.0	1.0
+p__Methanomada_group	53	53	0	0	1.0	1.0	1.0
+p__Microgenomates_group	421	421	2	0	0.9952718676122931	1.0	0.9976303317535545
+p__Nitrospinae/Tectomicrobia_group	18	16	0	2	1.0	0.8888888888888888	0.9411764705882353
+p__Nitrospirae	55	54	0	1	1.0	0.9818181818181818	0.9908256880733944
+p__OM43_clade	1	1	1	0	0.5	1.0	0.6666666666666666
+p__PS1_clade	2	2	0	0	1.0	1.0	1.0
+p__PVC_group	272	171	5	101	0.9715909090909091	0.6286764705882353	0.7633928571428572
+p__Parcubacteria_group	825	629	1	196	0.9984126984126984	0.7624242424242424	0.8646048109965636
+p__Proteobacteria	2885	0	0	2885		0.0	
+p__SAR116_cluster	2	0	0	2		0.0	
+p__SAR324_cluster	18	0	0	18		0.0	
+p__SAR86_cluster	8	0	0	8		0.0	
+p__SAR92_clade	4	4	2	0	0.6666666666666666	1.0	0.8
+p__Spirochaetes	135	134	1	1	0.9925925925925926	0.9925925925925926	0.9925925925925926
+p__Stenosarchaea_group	233	222	29	11	0.8844621513944223	0.9527896995708155	0.9173553719008264
+p__Synergistetes	30	29	0	1	1.0	0.9666666666666667	0.983050847457627
+p__TACK_group	235	235	7	0	0.9710743801652892	1.0	0.9853249475890985
+p__Terrabacteria_group	3646	0	0	3646		0.0	
+p__Thermodesulfobacteria	10	10	0	0	1.0	1.0	1.0
+p__Thermotogae	35	35	0	0	1.0	1.0	1.0
+p__ant,_tsetse,_mealybug,_aphid,_etc._endosymbionts	15	0	0	15		0.0	
+p__candidate_division_CPR2	6	6	1	0	0.8571428571428571	1.0	0.923076923076923
+p__candidate_division_CPR3	3	3	0	0	1.0	1.0	1.0
+p__candidate_division_KD3-62	1	0	0	1		0.0	
+p__candidate_division_KSB1	1	1	1	0	0.5	1.0	0.6666666666666666
+p__candidate_division_Kazan-3B-28	8	8	0	0	1.0	1.0	1.0
+p__candidate_division_NC10	3	3	0	0	1.0	1.0	1.0
+p__candidate_division_TA06	7	4	0	3	1.0	0.5714285714285714	0.7272727272727273
+p__candidate_division_WOR-3	2	2	0	0	1.0	1.0	1.0
+p__candidate_division_WWE3	62	62	2	0	0.96875	1.0	0.9841269841269841
+p__sulfur-oxidizing_symbionts	38	35	4	3	0.8974358974358975	0.9210526315789473	0.9090909090909091

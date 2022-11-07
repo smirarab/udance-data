@@ -1,0 +1,97 @@
+name	grpsize	true positive	false positive	false negative	precision	recall	fmeasure
+p__	259	105	7677	154	0.013492675404780262	0.40540540540540543	0.02611615470712598
+p__Acidobacteria	155	125	1	30	0.9920634920634921	0.8064516129032258	0.8896797153024911
+p__Acidobacteria_subdivision_22	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Aquificae	21	19	0	2	1.0	0.9047619047619048	0.9500000000000001
+p__Asgard_group	20	20	1	0	0.9523809523809523	1.0	0.975609756097561
+p__BD1-7_clade	3	3	31	0	0.08823529411764706	1.0	0.1621621621621622
+p__Caldiserica/Cryosericota_group	5	5	0	0	1.0	1.0	1.0
+p__Calditrichaeota	5	3	0	2	1.0	0.6	0.7499999999999999
+p__Candidatus_Abawacabacteria	1	0	0	1		0.0	
+p__Candidatus_Aerophobetes	5	3	0	2	1.0	0.6	0.7499999999999999
+p__Candidatus_Aminicenantes	15	15	0	0	1.0	1.0	1.0
+p__Candidatus_Atribacteria	12	12	0	0	1.0	1.0	1.0
+p__Candidatus_Baumannia	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Berkelbacteria	19	13	1	6	0.9285714285714286	0.6842105263157895	0.7878787878787878
+p__Candidatus_Calescamantes	9	9	1	0	0.9	1.0	0.9473684210526316
+p__Candidatus_Coatesbacteria	1	0	0	1		0.0	
+p__Candidatus_Dadabacteria	11	9	0	2	1.0	0.8181818181818182	0.9
+p__Candidatus_Delongbacteria	2	2	1	0	0.6666666666666666	1.0	0.8
+p__Candidatus_Dependentiae	26	26	3	0	0.896551724137931	1.0	0.9454545454545454
+p__Candidatus_Desantisbacteria	5	4	0	1	1.0	0.8	0.888888888888889
+p__Candidatus_Dojkabacteria	24	24	1	0	0.96	1.0	0.9795918367346939
+p__Candidatus_Doudnabacteria	19	19	2	0	0.9047619047619048	1.0	0.9500000000000001
+p__Candidatus_Edwardsbacteria	1	0	0	1		0.0	
+p__Candidatus_Eisenbacteria	4	4	0	0	1.0	1.0	1.0
+p__Candidatus_Fervidibacteria	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Firestonebacteria	2	2	0	0	1.0	1.0	1.0
+p__Candidatus_Fischerbacteria	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Candidatus_Glassbacteria	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Gracilibacteria	6	3	1	3	0.75	0.5	0.6
+p__Candidatus_Handelsmanbacteria	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Candidatus_Hydrothermae	5	4	0	1	1.0	0.8	0.888888888888889
+p__Candidatus_Hydrothermarchaeota	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Candidatus_Lindowbacteria	1	0	0	1		0.0	
+p__Candidatus_Ozemobacterales	1	1	1	0	0.5	1.0	0.6666666666666666
+p__Candidatus_Peregrinibacteria	74	0	0	74		0.0	
+p__Candidatus_Peribacteraceae	2	1	1	1	0.5	0.5	0.5
+p__Candidatus_Poribacteria	11	11	0	0	1.0	1.0	1.0
+p__Candidatus_Pyropristinus	3	3	0	0	1.0	1.0	1.0
+p__Candidatus_Raymondbacteria	1	1	24	0	0.04	1.0	0.07692307692307693
+p__Candidatus_Riflebacteria	1	0	0	1		0.0	
+p__Candidatus_Rokubacteria	10	10	0	0	1.0	1.0	1.0
+p__Candidatus_Saccharibacteria	69	68	9	1	0.8831168831168831	0.9855072463768116	0.9315068493150684
+p__Candidatus_Schekmanbacteria	8	7	0	1	1.0	0.875	0.9333333333333333
+p__Candidatus_Sumerlaeota	2	2	0	0	1.0	1.0	1.0
+p__Candidatus_Wirthbacteria	1	0	0	1		0.0	
+p__Chrysiogenetes	2	2	0	0	1.0	1.0	1.0
+p__Coprothermobacterota	2	2	0	0	1.0	1.0	1.0
+p__DPANN_group	28	28	10	0	0.7368421052631579	1.0	0.8484848484848484
+p__Deferribacteres	9	8	0	1	1.0	0.8888888888888888	0.9411764705882353
+p__Diaforarchaea_group	97	97	27	0	0.782258064516129	1.0	0.8778280542986425
+p__Dictyoglomi	3	3	0	0	1.0	1.0	1.0
+p__Elusimicrobia	55	53	2	2	0.9636363636363636	0.9636363636363636	0.9636363636363636
+p__Euryarchaeota	103	0	0	103		0.0	
+p__FCB_group	1640	1447	18	193	0.9877133105802047	0.8823170731707317	0.9320450885668278
+p__Fusobacteria	40	39	0	1	1.0	0.975	0.9873417721518987
+p__Marine_Group_IV	1	1	143	0	0.006944444444444444	1.0	0.013793103448275862
+p__Methanomada_group	75	75	0	0	1.0	1.0	1.0
+p__Microgenomates_group	488	488	9	0	0.9818913480885312	1.0	0.9908629441624366
+p__Nitrospinae/Tectomicrobia_group	24	21	1	3	0.9545454545454546	0.875	0.9130434782608695
+p__Nitrospirae	89	84	4	5	0.9545454545454546	0.9438202247191011	0.9491525423728814
+p__OCS116_cluster	6	0	0	6		0.0	
+p__OM43_clade	2	2	1	0	0.6666666666666666	1.0	0.8
+p__OMG_group	12	7	11	5	0.3888888888888889	0.5833333333333334	0.4666666666666666
+p__PS1_clade	2	2	0	0	1.0	1.0	1.0
+p__PVC_group	635	569	16	66	0.9726495726495726	0.8960629921259843	0.9327868852459016
+p__Parcubacteria_group	1061	789	42	272	0.9494584837545126	0.7436380772855796	0.8340380549682874
+p__Proteobacteria	4315	0	0	4315		0.0	
+p__SAR116_cluster	27	0	0	27		0.0	
+p__SAR324_cluster	24	0	0	24		0.0	
+p__SAR86_cluster	52	0	0	52		0.0	
+p__SAR92_clade	8	6	2	2	0.75	0.75	0.75
+p__Spirochaetes	173	172	1	1	0.9942196531791907	0.9942196531791907	0.9942196531791907
+p__Stenosarchaea_group	298	0	0	298		0.0	
+p__Synergistetes	33	33	0	0	1.0	1.0	1.0
+p__TACK_group	253	253	6	0	0.9768339768339769	1.0	0.98828125
+p__Terrabacteria_group	5321	2859	29	2462	0.9899584487534626	0.5373050178537869	0.6965525642587405
+p__Thermodesulfobacteria	14	14	0	0	1.0	1.0	1.0
+p__Thermotogae	45	45	0	0	1.0	1.0	1.0
+p__ant,_tsetse,_mealybug,_aphid,_etc._endosymbionts	17	9	41	8	0.18	0.5294117647058824	0.26865671641791045
+p__candidate_division_CPR2	6	6	1	0	0.8571428571428571	1.0	0.923076923076923
+p__candidate_division_CPR3	6	4	0	2	1.0	0.6666666666666666	0.8
+p__candidate_division_FCPU426	1	0	0	1		0.0	
+p__candidate_division_KD3-62	1	1	2	0	0.3333333333333333	1.0	0.5
+p__candidate_division_KSB1	3	3	7	0	0.3	1.0	0.4615384615384615
+p__candidate_division_KSB3	1	1	1	0	0.5	1.0	0.6666666666666666
+p__candidate_division_Kazan-3B-28	8	8	1	0	0.8888888888888888	1.0	0.9411764705882353
+p__candidate_division_NC10	4	4	1	0	0.8	1.0	0.888888888888889
+p__candidate_division_NPL-UPA2	1	0	0	1		0.0	
+p__candidate_division_SR1	1	0	0	1		0.0	
+p__candidate_division_TA06	10	5	0	5	1.0	0.5	0.6666666666666666
+p__candidate_division_UBP10	1	1	1	0	0.5	1.0	0.6666666666666666
+p__candidate_division_WOR-3	13	9	3	4	0.75	0.6923076923076923	0.7199999999999999
+p__candidate_division_WS2	1	1	1	0	0.5	1.0	0.6666666666666666
+p__candidate_division_WS5	1	1	1	0	0.5	1.0	0.6666666666666666
+p__candidate_division_WWE3	75	72	4	3	0.9473684210526315	0.96	0.9536423841059603
+p__sulfur-oxidizing_symbionts	34	29	9	5	0.7631578947368421	0.8529411764705882	0.8055555555555555

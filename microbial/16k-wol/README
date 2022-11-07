@@ -1,0 +1,11 @@
+
+### Full microbial dataset referred as the 16k dataset in the manuscript. uDance built a ~16,000 genome tree using this data.
+
+Location:
+https://drive.google.com/drive/folders/1IwrwuP6F2Zlgql8LkI09lncTcd4xbG2G
+
+Exctract the archives in the directory called 16k-wol
+
+The tree can be found here: 
+../200k-wol/wol2-decoration/decorations/06-12-2022-16k-v4-loof-backbonenextiter.nwk_gtdb_tax_207_spacedelim_edited.tsv/rt
+
