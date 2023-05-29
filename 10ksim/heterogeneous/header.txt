@@ -1,0 +1,7 @@
+[TYPE] CODON 1
+
+[SETTINGS]
+[randomseed] 2478
+[fileperrep] FALSE
+[output] FASTA
+

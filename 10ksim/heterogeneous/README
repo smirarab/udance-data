@@ -1,0 +1,15 @@
+We concatenated p0001-p0010 alignments, ran Treecluster with 0.9 threshold on WoL tree with 10575 species (cons branch lengths), extract the largest Archaea and CPR clades, and the largest two ordinary bacteria clades. We counted each tri-nucleotide on the concatenated alignment of these clades using a custom script. We took 4 gamma model (M5) parameter sets from Yang 2000, ran INDELIBLE M5-M13.cpp script to discretize (20 categories) these Gamma distributions, set kappa to 2.5 in all four models, and paired state frequencies obtained from the 4 clades with these 4 models and therefore had 4 models named  M1-M4. Next, we selected 9 trees from the main HGT simulation, whose names are written to `trees_origin.txt`. We assigned models to branches using a simple algorithm: pre-order traverse the edges of the tree and start with a random color. With probability 0.05, the child edge flips a coin to set its color different than its parent edge. Finally, we used the same alignment lengths for these trees as they are given in the indelible control file of the full HGT dataset. The relevant files in this archive are as follows:
+
+commands.sh   # some of the commands executed to find clades, etc.
+countfreq.py  # given an alignment, prints state frequencies in INDELIBLE format
+indeldir/ # directory in which INDELIBLE control.txt and output alignments are located
+astral.cons.lpp.nwk # input tree to treecluster run that finds clades
+alignments/ # directory alignments we concatenated
+concat.fa  # concatenated alignment
+archsublabels.txt  # archaea labels according to GTDB
+cprsublabels.txt  # CPR labels according to GTDB
+M1.txt-M4.txt   # discretized gamma models in INDELIBLE format
+model_assigner.py # the scripts that assigns models to input tree branches. Outputs in INDELIBLE format
+ordbacsubtree.nwk # subtree of WoL which contains non-CPR bacteria. 
+trees_origin.txt  # whereabouts of the 9 trees used in dataset on the main HGT dataset 
+trees.txt # true gene trees of the selected 9 loci

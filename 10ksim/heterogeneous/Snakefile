@@ -1,0 +1,15 @@
+
+
+rule all:
+    input: expand("indeldir/{gene}/trees.txt", gene=range(1,101))
+
+
+rule indelible:
+    input: "indeldir/{gene}/control.txt"
+    output: "indeldir/{gene}/trees.txt"
+    resources: cpus=1
+    shell:
+        '''
+            cd indeldir/{wildcards.gene}
+            indelible
+        '''
