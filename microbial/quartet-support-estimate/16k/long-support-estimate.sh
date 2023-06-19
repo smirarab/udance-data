@@ -1,1 +1,0 @@
-../long-support-estimate.sh

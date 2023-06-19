@@ -1,0 +1,19 @@
+TREE_COLORS
+SEPARATOR COMMA
+DATA
+Methanobacteriota_1 {46},label_background,#fceaea
+Methanobacteriota_2 {1},label_background,#fceaea
+Methanobacteriota_3 {53},label_background,#fceaea
+Acidimicrobiia_1 {1},label_background,#fceaea
+Acidimicrobiia_2 {21},label_background,#fceaea
+Firmicutes_1 {13},label_background,#fceaea
+Firmicutes_2 {17},label_background,#fceaea
+Firmicutes_3 {68},label_background,#fceaea
+Firmicutes_4 {73},label_background,#fceaea
+TA06_1 {4},label_background,#fceaea
+TA06_2 {1},label_background,#fceaea
+Bdellovibrionota_1 {1},label_background,#fceaea
+Bdellovibrionota_2 {39},label_background,#fceaea
+Nitrospirota_1 {9},label_background,#fceaea
+Nitrospirota_2 {45},label_background,#fceaea
+Bdellovibrionota_3 {6},label_background,#fceaea

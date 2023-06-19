@@ -1,2 +1,0 @@
-./generate_main_tree.py ../../06-26-2022-200K-udance-astral-bl-5-17-2-rt.nwk_gtdb_tax_207_spacedelim_edited.tsv/rt ../../06-26-2022-200K-udance-astral-bl-5-17-2-rt.nwk_gtdb_tax_207_spacedelim_edited.tsv/rt-dec-consensus-strings
-#../06-12-2022-16k-v4-loof-backbonenextiter.nwk_gtdb_tax_207_spacedelim.tsv/rt ../06-12-2022-16k-v4-loof-backbonenextiter.nwk_gtdb_tax_207_spacedelim.tsv/rt-dec-consensus-strings
